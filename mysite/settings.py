@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'vs-w@@ppc5mw_khe0=)as(ci_1o&%y96k$5be&th(wao=fj9h_'
+SECRET_KEY = 'xxx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -97,8 +97,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mysite',
         'USER': 'root',
-        'PASSWORD': 'charac.2008',
-        'HOST': '47.89.190.88',
+        'PASSWORD': 'xxxxx',
+        'HOST': 'xxxx',
         'PORT': '3306',
     }
 }
@@ -127,6 +127,6 @@ STATIC_URL = '/static/'
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER='894474405@qq.com'
-EMAIL_HOST_PASSWORD='iigprbogvweabbci'
+EMAIL_HOST_USER='xxxxx'
+EMAIL_HOST_PASSWORD='xxxxxx'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
